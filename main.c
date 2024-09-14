@@ -2,10 +2,10 @@
 int main() {
 printf("Hello, World!\n");
 
-char nameFirst;
+char nameFirst[20];
 printf("Hello! What's your name?\n");
-scanf("%c", &nameFirst);
-printf("Hello! %c how are you?", nameFirst);
+scanf("%s", &nameFirst);
+printf("Hello! %s how are you?", nameFirst);
 
 return 0;
 }
